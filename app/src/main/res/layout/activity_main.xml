@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.week4.MainActivity">
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="141dp"
+        android:layout_y="330dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Summation"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="5dp"
+        android:background="@mipmap/ic_launcher"
+        android:text="Android App Week 4 Activity 1"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="82dp"
+        android:layout_y="100dp"
+        android:ems="10"
+        android:hint="Input number"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="83dp"
+        android:layout_y="203dp"
+        android:ems="10"
+        android:hint="Input number"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <TextView
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_x="270dp"
+        android:layout_y="161dp"
+        android:text="+"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="204dp"
+        android:layout_height="53dp"
+        android:layout_x="95dp"
+        android:layout_y="450dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Open Wat Pha-kaew"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="270dp"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="403dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+</AbsoluteLayout>

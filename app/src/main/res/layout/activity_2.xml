@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.week4.Activity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="208dp"
+        android:text="Result"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="31dp"
+        android:layout_y="42dp"
+        android:background="@mipmap/ic_launcher_round"
+        android:text="Android App Week 4 Activity 2"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="208dp"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="171dp"
+        android:layout_y="268dp"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="140dp"
+        android:layout_y="351dp"
+        android:text="GetMessage"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="401dp" />
+</AbsoluteLayout>
